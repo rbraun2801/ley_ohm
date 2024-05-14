@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Calcular Ley Ohm</title>
+</head>
+<body>
+    <nav class="navbar bg-warning">
+        <div class="container-fluid justify-content-center">
+          <span class="navbar-brand ">Calculadora de ley Ohm</span>
+        </div>
+      </nav>
+    <div class="container-fluid mt-3 d-flex justify-content-center">
+        <div class="row">
+
+            <div class="col-auto text-center">
+                <div class="mb-2">
+                    <label class="form-label align-items-center">Operacion</label>
+                    <select class="form-select" id="slt_operacion">
+                        <option selected disabled value="-1">Seleccione una opcion</option>
+                        <option value="0">Resistencia</option>
+                        <option value="1">Intensidad</option>
+                        <option value="2">Voltaje</option>
+                    </select>
+                </div>
+                <div class="mb-2">
+                    <label id="label1" class="form-label"></label>
+                    <input id="inp_d1" type="number" class="form-control">
+                </div>
+                <div class="mb-2">
+                    <label id="label2" class="form-label"></label>
+                    <input id="inp_d2" type="number" class="form-control">
+                </div>
+                   
+            </div>
+
+            <div class="col-auto text-center">
+                <div class="mb-2">
+                    <label class="form-label">Resultado</label>
+                    <input type="text" id="resultado" class="form-control text-center" disabled>
+                </div>
+                <div class="mb-3">
+                    <button id="btn_calcular" class="btn btn-success">Calcular</button>
+                </div>
+
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="images/images.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Grafico Ley de OHM</h5>
+                  <p class="card-text">La ley de Ohm, postulada por el físico y matemático alemán Georg Simon Ohm, es una ley básica para entender los fundamentos principales de los circuitos eléctricos.</p>
+                  <a href="https://es.wikipedia.org/wiki/Ley_de_Ohm" class="btn btn-primary">Ver mas</a>
+                </div>
+            </div>
+            
+        </div>
+    
+ 
+        
+    </div>
+    <script src="main.js"></script
+</body>
+</html>
